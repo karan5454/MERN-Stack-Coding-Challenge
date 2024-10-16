@@ -1,0 +1,103 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  h1, h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  select, input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2c3e50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #34495e;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #34495e;
+    color: white;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    /* Stack elements vertically on small screens */
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    table, th, td {
+      font-size: 14px;
+    }
+  
+    select, input[type="text"], button {
+      width: 100%;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Further adjustments for mobile */
+    h1, h2 {
+      font-size: 18px;
+    }
+  
+    select, input[type="text"], button {
+      font-size: 12px;
+      padding: 8px;
+    }
+  
+    table, th, td {
+      font-size: 12px;
+    }
+  }
+  
